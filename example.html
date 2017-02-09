@@ -5,7 +5,7 @@
     <script src="https://cdn.rawgit.com/hh-lohmann/jqml/master/src/jqml.js"></script>
     <script id="ini">
       objIni = {
-        arrContent: [ "div", [ "h1" , "Just a VERY basic example" ], [ "p", "This document's content is created by jqml() with a JSON string as its argument (see HTML Source)."], ["hr"], [ "p", { "style": "font-style: italic; font-size: 0.8em; " }, "Thx 2 ", [ "a", { "href": "https://cdn.rawgit.com" }, "RawGit" ], "!"] ]
+        arrContent: JSON.parse( '[ "div", [ "style", "@import url(\'https://fonts.googleapis.com/css?family=Pangolin\'); body{ font-family: Pangolin, cursive; width: 30em; margin: auto; }" ], [ "h1" , "Just a VERY basic example" ], [ "p", "This document\'s content is created by jqml() with a JSON-like array as its argument (see HTML Source)."], [ "ul", { "style": "border-left: thin dotted; list-style-type: none; "}, [ "li", { "style": "padding-left: 1em; text-indent: -1em;" }, "\u26a0 Be aware: jqml() takes ", [ "i",  "an array" ], " as its argument, not a JSON string ", [ "i", "representing" ], " an array, so \\"real\\" JSON has to bei parsed (what ", [ "i", "may" ], " drive you crazy concerning quoting double quotes)" ], [ "li", { "style": "padding-left: 1em; text-indent: -1em;" }, "\u2606 For using JsonML as a storage format, it\'s a benefit to work directly with real arrays (remember that real JSON is meant for machine interchange)" ] ], ["hr"], [ "p", { "style": "font-style: italic; font-size: 0.8em; " }, "Thx 2 ", [ "a", { "href": "https://cdn.rawgit.com" }, "RawGit" ], "!"] ]' )
       };
     </script>
   </head>
