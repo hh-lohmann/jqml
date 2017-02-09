@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en">
+  <head>
+    <script src="https://cdn.rawgit.com/hh-lohmann/jqml/master/src/jqml.js"></script>
+    <script id="ini">
+      objIni = {
+        arrContent: [ "div", [ "h1" , "Just a VERY basic example" ], [ "p", "This document's content is created by jqml() with a JSON string as its argument (see HTML Source)."], ["hr"], [ "p", { "style": "font-style: italic; font-size: 0.8em; " }, "Thx 2 ", [ "a", { "href": "https://cdn.rawgit.com" }, "RawGit" ], "!"] ]
+      };
+    </script>
+  </head>
+  <body>
+    <script>
+      document.body.innerHTML =  jqml( objIni.arrContent ).outerHTML ;
+    </script>
+  </body>
+</html>
