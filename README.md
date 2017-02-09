@@ -1,3 +1,6 @@
+| See [example.html](https://rawgit.com/hh-lohmann/jqml/master/example.html) (thankfully possible via RawGit) and [its source](../master/example.html) to get an impression what you can do with jqml
+-------
+
 jqml - jQuery/JavaScript JsonML Translator
 
 In `src/` you will find the following files:
