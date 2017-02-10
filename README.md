@@ -1,5 +1,6 @@
-| See [example.html](https://rawgit.com/hh-lohmann/jqml/master/example.html) (thankfully possible via RawGit) and [its source](../master/example.html) to get an impression what you can do with jqml
--------
+<div style="width: 90%; margin: auto; border: thin dotted;">
+See [example.html](https://hh-lohmann.github.io/jqml/example.html) (thankfully possible via RawGit) and [its source](https://github.com/hh-lohmann/jqml/blob/master/example.html) to get an impression what you can do with jqml
+</div>
 
 jqml - jQuery/JavaScript JsonML Translator
 
