@@ -1,5 +1,5 @@
 <div style="margin: 1em 0 2em 1em; border: thin dotted;">
-See <a href="https://hh-lohmann.github.io/jqml/example.html">example.html</a> (thankfully possible via RawGit) and <a href="https://github.com/hh-lohmann/jqml/blob/master/example.html">its source</a> to get an impression what you can do with jqml
+<b>See <a href="https://hh-lohmann.github.io/jqml/example.html">example.html</a> (thankfully possible via RawGit) and <a href="https://github.com/hh-lohmann/jqml/blob/master/example.html">its source</a> to get an impression what you can do with jqml</b>
 </div>
 
 jqml - jQuery/JavaScript JsonML Translator
