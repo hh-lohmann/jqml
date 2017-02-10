@@ -2,7 +2,7 @@
 <b>See <a href="https://hh-lohmann.github.io/jqml/example.html">example.html</a> (thankfully possible via RawGit) and <a href="https://github.com/hh-lohmann/jqml/blob/master/example.html">its source</a> to get an impression what you can do with jqml</b>
 </div>
 
-jqml - jQuery/JavaScript JsonML Translator
+#jqml - jQuery/JavaScript JsonML Translator
 
 In `src/` you will find the following files:
 
